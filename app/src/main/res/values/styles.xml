@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+
+    <style name = "SpinnerThemeLight" >
+        <item name = "android:colorBackground">@color/textColorPrimary</item>
+        <item name = "android:textColorTertiary">@color/colorBackground</item>
+        <item name = "android:textColorSecondary">@color/colorBackground</item>
+        <item name = "android:textColorPrimary">@color/colorBackground</item>
+        <item name = "android:textColorPrimaryDisableOnly">@color/colorBackground</item>
+    </style>
+
+
+
+    <!--<style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>-->
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+</resources>
